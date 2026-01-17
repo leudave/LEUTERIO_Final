@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+  background-color: #00008b;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #3b4b5c;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  padding: 30px;
+}
+
+/* PROFILE IMAGE */
+.profile {
+  display: block;
+  margin: 20px auto;
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* BOX SECTIONS */
+.box {
+  background-color: #f2f2f2;
+  width: 65%;
+  margin: 20px auto;
+  padding: 20px;
+
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+/* SKILL BARS */
+.skill-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 18px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* TECHNICAL SKILL RATINGS */
+.skill.html {
+  width: 80%;
+  background-color: #00008b;
+}
+
+.skill.css {
+  width: 60%;
+  background-color: #4169e1;
+}
+
+.skill.js {
+  width: 50%;
+  background-color: #6495ed;
+}
+
+/* STAR RATINGS */
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #3b4b5c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

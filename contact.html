@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Isaiah Dave A. Leuterio</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    function validateForm() {
+      var name = document.getElementById("name").value.trim();
+      var email = document.getElementById("email").value.trim();
+      var message = document.getElementById("message").value.trim();
+
+      if (name === "" || email === "" || message === "") {
+        alert("Please fill out all fields.");
+        return false;
+      }
+
+      alert("Thank you! Your message has been received.");
+      return false; 
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Contact Me</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="lessons.html">Lessons</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section class="box">
+    <p><strong>Email:</strong> daveleuterio0@gmail.com</p>
+
+    <form onsubmit="return validateForm();">
+      <label>Name:</label><br>
+      <input type="text" id="name"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" id="email"><br><br>
+
+      <label>Message:</label><br>
+      <textarea id="message"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Isaiah Dave A. Leuterio</p>
+</footer>
+
+</body>
+</html>
